@@ -1,0 +1,36 @@
+== geometric_tools
+
+The geometric tools are classes for the geometric elements "point", "line", "box" and "area". 
+
+geometric_tools.rb
+- loads all classes
+
+point.rb
+- geometrical point
+- usage in the geometric tools: start- and endpoint of a line
+- usage in the visualization of metabolic networks: 
+    - center of a transformation
+    - compound
+
+
+line.rb
+- geometrical line
+- usage in the geometric tools: three or more lines form a box
+- usage in the visualization of metabolic networks: 
+    - connects one compound to the center of a transformation
+    - two or mor lines are part of a transformation
+
+
+box.rb
+- geometrical box
+- usage in the geometric tools: a box is made of several lines and has an area
+- usage in the visualization of metabolic networks: 
+    - combines several transformations to a pathway
+    - includes several lines (transformations) and points (compounds)
+
+
+area.rb
+- geometrical area
+- usage in the geometric tools: an area is created with a box which defines the boundaries of the area
+- usage in the visualization of metabolic networks:
+    - via the area compounds and transformations can be assigned to the according pathways
