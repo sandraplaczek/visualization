@@ -1,0 +1,6 @@
+Usage:
+ruby1.9 visualize_path.rb tf_id1 tf_id2 path
+
+Example:
+ruby1.9 visualize_path.rb 4493 4492 5310 1488 216 4596 703 7909 "chain116.svg"
+
